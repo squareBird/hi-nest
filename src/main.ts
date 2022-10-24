@@ -8,7 +8,8 @@ async function bootstrap() {
       new ValidationPipe({
         whitelist:true,
         forbidNonWhitelisted:true,
-      }),
+        transform: true, // 실제 타입으로 변환해줌 getOne의 파라미터 string -> number로 자동으로 바꿔
+      })
   )
   await app.listen(3000);
 }

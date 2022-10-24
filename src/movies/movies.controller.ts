@@ -14,7 +14,8 @@ export class MoviesController {
     }
 
     @Get('/:id')
-    getOne(@Param('id') movieId: string): Movie {
+    getOne(@Param('id') movieId: number): Movie { // ValidationPipe의 transformer를 통해 변환
+        console.log(typeof(movieId));
         return this.moviesService.getOne(movieId);
     }
 
@@ -24,16 +25,13 @@ export class MoviesController {
     }
 
     @Delete('/:id')
-    remove(@Param('id') movieId: string) {
+    remove(@Param('id') movieId: number) { // ValidationPipe의 transformer를 통해 변환
         return this.moviesService.deleteOne(movieId);
     }
 
     @Patch('/:id')
-    path(@Param('id') movieId: string, @Body() updateData) {
+    patch(@Param('id') movieId: number, @Body() updateData) { // ValidationPipe의 transformer를 통해 변환
         return this.moviesService.update(movieId, updateData);
     }
-
-
-
 
 }
