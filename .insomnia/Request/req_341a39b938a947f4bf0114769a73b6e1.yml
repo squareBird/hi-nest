@@ -1,0 +1,25 @@
+_id: req_341a39b938a947f4bf0114769a73b6e1
+type: Request
+parentId: fld_924b08629d47473ba16ce197dfca235e
+modified: 1666606881316
+created: 1666601500635
+url: http://localhost:3000/movies
+name: 1. getAll
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666601500635
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

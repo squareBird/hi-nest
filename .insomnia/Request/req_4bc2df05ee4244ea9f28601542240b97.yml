@@ -1,0 +1,30 @@
+_id: req_4bc2df05ee4244ea9f28601542240b97
+type: Request
+parentId: fld_924b08629d47473ba16ce197dfca235e
+modified: 1666606904502
+created: 1666606795460
+url: http://localhost:3000/movies
+name: 3. create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Tenet2",
+    	"year": 2021,
+    	"genres": ["action", "science fixion"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666601500535
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

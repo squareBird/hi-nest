@@ -1,0 +1,25 @@
+_id: req_a60a4d0e5a194ebebc78026009afc82d
+type: Request
+parentId: fld_924b08629d47473ba16ce197dfca235e
+modified: 1666606877553
+created: 1666606829895
+url: http://localhost:3000/movies/1
+name: 4. remove
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666601500485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
