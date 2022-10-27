@@ -1,0 +1,30 @@
+_id: req_a1e77c1243524189a25c38550f7846c6
+type: Request
+parentId: fld_924b08629d47473ba16ce197dfca235e
+modified: 1666606911969
+created: 1666606891661
+url: http://localhost:3000/movies/1
+name: 5. patch
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Tenet3",
+    	"year": 2021,
+    	"genres": ["action", "science fixion"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666601500435
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
